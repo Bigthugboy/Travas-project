@@ -1,0 +1,6 @@
+mongodb:travasllc
+uri := os.Getenv("MONGODB_URI")
+MONGODB_URI=mongodb+srv://<user>:<password>@<cluster-url>?retryWrites=true&w=majority
+
+
+//[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
